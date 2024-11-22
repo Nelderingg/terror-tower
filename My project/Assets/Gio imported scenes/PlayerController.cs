@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
+    [SerializeField]
     private bool _isMoving = false;
 
     public bool IsMoving
