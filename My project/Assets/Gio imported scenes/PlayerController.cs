@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     IsOnWall isOnWall;
+
+
     public float CurrentMoveSpeed
     {
         get
@@ -118,4 +120,5 @@ public class PlayerController : MonoBehaviour
         }
     }
 }
+
 
